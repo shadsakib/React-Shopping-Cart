@@ -1,5 +1,5 @@
 # React-Shopping-Cart
-An ecommerce cart application that deals with adding, removing of items to/from a shopping cart and deals with necessary price calculations.  
+An ecommerce cart application that allows adding, removing of items to/from a shopping cart and deals with necessary price calculations.  
 
 
 ### Tools:
