@@ -6,6 +6,8 @@ An ecommerce cart application that allows adding, removing of items to/from a sh
 * ReactJS
 * Javascript
 
+https://gfycat.com/meagerhappygoluckyhypsilophodon
+
 ### Features:
 * Add or remove items to/from cart 
 * Choose quantity of each item to be added to cart 
