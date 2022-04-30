@@ -1,0 +1,56 @@
+.details > button {
+  margin-top: 20px;
+}
+
+.cart__addButton {
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.cart__addButton:hover,
+.cart__removeButton:hover {
+  background-color: rgb(43, 156, 226);
+  transition: color 100ms ease-out;
+}
+
+.cart__addButton:active,
+.cart__removeButton:active {
+  transform: translateY(2px);
+}
+
+.cart__removeButton {
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.product {
+  width: 250px;
+  padding: 20px;
+}
+.product:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+}
+
+.image_box img {
+  width: 150px;
+  height: 200px;
+}
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+  font-weight: bolx;
+  color: grey;
+}
+.details button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: skyblue;
+  outline: none;
+}
