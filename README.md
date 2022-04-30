@@ -8,8 +8,6 @@ An ecommerce cart application that allows adding, removing of items to/from a sh
 
 ![2022-04-30 19-39-06](https://user-images.githubusercontent.com/47941391/166111737-2d76214e-7ea1-475c-8297-998db13ca55f.gif)
 
-![https://gfycat.com/meagerhappygoluckyhypsilophodon
-]()
 
 ### Features:
 * Add or remove items to/from cart 
