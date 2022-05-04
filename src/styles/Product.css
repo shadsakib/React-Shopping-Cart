@@ -7,21 +7,23 @@
   cursor: pointer;
 }
 
-.cart__addButton:hover,
-.cart__removeButton:hover {
+.cart__addButton:hover {
   background-color: rgb(43, 156, 226);
   transition: color 100ms ease-out;
 }
-
+.cart__removeButton:hover {
+  background-color: rgb(157, 25, 25);
+  transition: color 100ms ease-out;
+}
 .cart__addButton:active,
 .cart__removeButton:active {
   transform: translateY(2px);
 }
 
 .cart__removeButton {
+  background-color: red !important;
   border-radius: 30px;
   cursor: pointer;
-  margin-left: 20px;
 }
 
 .product {

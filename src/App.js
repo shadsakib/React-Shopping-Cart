@@ -33,7 +33,11 @@ const App = () => {
     <React.Fragment>
       <Navbar setShow={setShow} itemCount={cart.length} />
       {show ? (
-        <Products onAdd={handleAddCart} onRemove={handleRemoveCart} />
+        <Products
+          cart={cart}
+          onAdd={handleAddCart}
+          onRemove={handleRemoveCart}
+        />
       ) : (
         <Cart cart={cart} setCart={setCart} onChange={handleChange} />
       )}

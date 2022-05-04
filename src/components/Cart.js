@@ -23,34 +23,37 @@ const Cart = (props) => {
   });
 
   return (
-    <article>
-      {cart.map((item) => (
-        <div className="cart_box" key={item.id}>
-          <div className="cart_img">
-            <img src={item.image} alt="" />
-            <p>{item.title}</p>
+    <div class="parent">
+      <article>
+        {cart.map((item) => (
+          <div className="cart_box" key={item.id}>
+            <div className="cart_img">
+              <img src={item.image} alt="" />
+              <p>{item.title}</p>
+            </div>
+            <div>
+              <button onClick={() => onChange(item, -1)}>-</button>
+              <button> {item.amount} </button>
+              <button onClick={() => onChange(item, 1)}>+</button>
+            </div>
+            <div>
+              <span>Tk {item.price * item.amount}</span>
+              <button
+                className="removeButton"
+                onClick={() => handleRemove(item.id)}
+              >
+                Remove
+              </button>
+            </div>
           </div>
-          <div>
-            <button onClick={() => onChange(item, -1)}>-</button>
-            <button> {item.amount} </button>
-            <button onClick={() => onChange(item, 1)}>+</button>
-          </div>
-          <div>
-            <span>Tk {item.price * item.amount}</span>
-            <button
-              className="removeButton"
-              onClick={() => handleRemove(item.id)}
-            >
-              Remove
-            </button>
-          </div>
+        ))}
+        <div className="total">
+          <span>Total Price of Cart</span>
+          <span style={{ paddingRight: "50px" }}> Tk {price}</span>
         </div>
-      ))}
-      <div className="total">
-        <span>Total Price of Cart</span>
-        <span style={{ paddingRight: "50px" }}> Tk {price}</span>
-      </div>
-    </article>
+      </article>
+      <button> Proceed to Checkout </button>
+    </div>
   );
 };
 

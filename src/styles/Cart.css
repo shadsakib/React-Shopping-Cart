@@ -9,6 +9,28 @@ article {
   flex: 0.5;
 }
 
+.parent {
+  text-align: center;
+}
+.parent > button {
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: skyblue;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.parent > button:hover {
+  background-color: rgb(43, 156, 226);
+  transition: color 100ms ease-out;
+}
+
+.parent > button:active {
+  transform: translateY(2px);
+}
 .cart_box img {
   width: 50px;
   height: 50px;
