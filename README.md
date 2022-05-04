@@ -6,7 +6,8 @@ An ecommerce cart application that allows adding, removing of items to/from a sh
 * ReactJS
 * Javascript
 
-![2022-04-30 19-39-06](https://user-images.githubusercontent.com/47941391/166111737-2d76214e-7ea1-475c-8297-998db13ca55f.gif)
+
+![2022-05-04 17-32-32](https://user-images.githubusercontent.com/47941391/166674628-b8dc75d0-cea1-4ac1-a4d3-cbf35aa65960.gif)
 
 
 ### Features:
