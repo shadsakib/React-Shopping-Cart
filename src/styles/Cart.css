@@ -67,13 +67,10 @@ article {
   border: none;
   outline: none;
   color: white;
-  background-color: skyblue;
   border-radius: 5px;
   cursor: pointer;
 }
-.cart_box div:nth-child(3) button:hover {
-  background-color: darkseagreen;
-}
+
 .cart_box div:nth-child(3) span {
   background-color: lightgreen;
   padding: 5px 10px;
@@ -96,11 +93,11 @@ article {
 }
 
 .removeButton {
-  background-color: red !important;
+  background-color: red;
 }
 
 .removeButton:hover {
-  background-color: rgb(157, 25, 25) !important;
+  background-color: rgb(157, 25, 25);
 }
 
 .total span:nth-child(1) {
@@ -114,4 +111,5 @@ article {
   font-size: 2rem;
   color: white;
   font-weight: bold;
+  padding-right: 50px;
 }
